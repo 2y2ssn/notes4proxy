@@ -27,3 +27,4 @@ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://ww
 2. [Linux Auto Reinstall](https://github.com/hiCasper/Shell)
 3. [Linux Auto Reinstall](https://github.com/jiuqi9997/Shell)
 4. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+5. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
