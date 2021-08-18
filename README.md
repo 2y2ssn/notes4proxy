@@ -5,6 +5,10 @@
 
 `wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh && bash AutoReinstall.sh`
 
+`bash <(curl -L mcnb.top/dd.sh)`
+
+`wget -qO DebianNET.sh qiu.sh/dd && bash DebianNET.sh -d 11 -v 64 -a -p password`
+
 
 一键网络重装系统 - 魔改版（适用于Linux / Windows）
 
