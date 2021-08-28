@@ -15,3 +15,6 @@
 15. [SagerNet - The universal proxy toolchain for Android](https://github.com/SagerNet/SagerNet)
 16. [V2Ray 路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
 17. [V2Ray Routing 路由](https://www.v2fly.org/config/routing.html)
+18. [Trojan](https://github.com/trojan-gfw/trojan)
+19. [Trojan Document](https://trojan-gfw.github.io/trojan/)
+20. [Trojan-Go Document](https://p4gefau1t.github.io/trojan-go/)
