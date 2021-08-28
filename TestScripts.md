@@ -1,3 +1,14 @@
+秋水一键测试脚本
+```
+curl -Lso- bench.sh | bash
+```
+[一键测试脚本bench.sh](https://teddysun.com/444.html)
+[Linux性能测试UnixBench一键脚本](https://teddysun.com/245.html)
+```
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
+chmod +x unixbench.sh
+./unixbench.sh
+```
 
 
 
