@@ -20,41 +20,7 @@ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShe
 ```
 wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/CXT-Library/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh -UI_Options
 ```
-### 网络测试
-```
-bash <(curl -sL mcnb.top/route.sh)
-```
-```
-bash <(curl -sL mcnb.top/besttrace.sh)
 
-```
-三网回程TCP路由测试
-```
-bash <(curl -sL mcnb.top/besttcp.sh)
-```
-```
-curl -sL mcnb.top/yabs.sh | bash -s — -ig
-```
-```
-bash <(curl -Lso- https://git.io/superspeed)
-```
-```
-bash <(curl -Lso- https://git.io/superspeed)
-```
-```
-wget -O unixbench.sh mcnb.top/unixbench.sh && bash unixbench.sh
-```
-```
-wget -O superbench.sh mcnb.top/superbench.sh && bash superbench.sh
-```
-```
-wget -O lemonbench.sh mcnb.top/lemonbench.sh && bash lemonbench.sh fast
-```
-
-流媒体解锁检测
-```
-bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
-```
 
 
 ## References
@@ -64,4 +30,4 @@ bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionChec
 4. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
 5. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
 6. [Cloudflare WARP 一键配置脚本](https://github.com/P3TERX/warp.sh)
-7. [流媒体解锁检测](https://github.com/lmc999/RegionRestrictionCheck)
+
