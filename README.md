@@ -2,6 +2,10 @@
 收集的一些常用脚本 有用的网址
 
 
+DNS 托管的其他选择
+1. [ClouDNS](https://www.cloudns.net/)
+2. [DNSPod](https://www.dnspod.com/) 注册挂代理+英文浏览器，推荐解析 Freenom 免费域名
+
 
 
 不要使用中国国内的域名注册商注册域名，也不要注册域名注册局位于中国的域名。
