@@ -21,13 +21,23 @@ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShe
 wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/CXT-Library/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh -UI_Options
 ```
 
+### 萌咖 DD Guide
+```
+apt install net-tools
+ifconfig -a   (查看本机公网IP地址)
+route -n   (查看网关地址)
+# 以 Debian10 为例
+bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 10 -v 64 -a --ip-addr 194.87.xxx.xxx(改成ifconfig获取到的) --ip-gate 194.87.xxx.xxx(改成route获取到的) --ip-mask 255.255.xxx.xxx(改成你获取到的)
+# 默认密码是 MoeClub.org
+```
 
 
 ## References
 1. [Linux常用的网络加速 - https://github.000060000.xyz/ ](https://github.com/ylx2016/Linux-NetSpeed)
-2. [Linux Auto Reinstall](https://github.com/hiCasper/Shell)
-3. [Linux Auto Reinstall](https://github.com/jiuqi9997/Shell)
-4. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
-5. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
-6. [Cloudflare WARP 一键配置脚本](https://github.com/P3TERX/warp.sh)
+2. [MoeClub/Note](https://github.com/MoeClub/Note)
+3. [Linux Auto Reinstall](https://github.com/hiCasper/Shell)
+4. [Linux Auto Reinstall](https://github.com/jiuqi9997/Shell)
+5. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+6. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
+7. [Cloudflare WARP 一键配置脚本](https://github.com/P3TERX/warp.sh)
 
