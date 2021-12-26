@@ -31,6 +31,11 @@ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShe
 # 默认密码是 MoeClub.org
 ```
 
+### Linux VPS工具箱
+```
+wget -N https://cdn.jsdelivr.net/gh/Misaka-blog/MisakaLinuxToolbox@master/MisakaToolbox.sh && chmod -R 777 MisakaToolbox.sh && bash MisakaToolbox.sh
+```
+
 
 ## References
 1. [Linux常用的网络加速 - https://github.000060000.xyz/ ](https://github.com/ylx2016/Linux-NetSpeed)
@@ -40,4 +45,5 @@ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShe
 5. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
 6. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
 7. [Cloudflare WARP 一键配置脚本](https://github.com/P3TERX/warp.sh)
+8. [Linux VPS工具箱](https://github.com/Misaka-blog/MisakaLinuxToolbox)
 
