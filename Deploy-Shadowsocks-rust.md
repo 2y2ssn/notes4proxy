@@ -1,6 +1,5 @@
 ## 1. 安装 Docker
 ```
-
 # Install using the convenience script
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
@@ -10,6 +9,13 @@ sudo sh get-docker.sh
 ## sudo rm -rf /var/lib/docker
 ## sudo rm -rf /var/lib/containerd
 ## Rerun the script
+```
+
+```
+systemctl start docker && systemctl enable docker
+
+# 查看 Docker 运行状态
+# systemctl status docker
 ```
 
 ## 2. Pull the image
