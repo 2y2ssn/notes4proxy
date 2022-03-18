@@ -1,7 +1,6 @@
 # Some scripts
 
 ### 萌咖一键网络重装 Debian / Ubuntu / CentOS 系统及dd方式安装系统
-
 ```
 wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh && bash AutoReinstall.sh
 ```
@@ -57,15 +56,12 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/mast
 ```
 
 
-
-
 ## References
 1. [Linux常用的网络加速 - https://github.000060000.xyz/ ](https://github.com/ylx2016/Linux-NetSpeed)
 2. [MoeClub/Note](https://github.com/MoeClub/Note)
 3. [Linux Auto Reinstall](https://github.com/hiCasper/Shell)
-4. [Linux Auto Reinstall](https://github.com/jiuqi9997/Shell)
-5. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
-6. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
-7. [Cloudflare WARP 一键配置脚本](https://github.com/P3TERX/warp.sh)
-8. [Linux VPS工具箱](https://github.com/Misaka-blog/MisakaLinuxToolbox)
+4. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+5. [Debian Network Reinstall Script](https://github.com/bohanyang/debi)
+6. [Cloudflare WARP 一键配置脚本](https://github.com/P3TERX/warp.sh)
+7. [Linux VPS工具箱](https://github.com/Misaka-blog/MisakaLinuxToolbox)
 
