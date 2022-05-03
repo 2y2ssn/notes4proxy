@@ -24,6 +24,8 @@ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShe
 # 默认密码是 MoeClub.org
 ```
 
+### [Install openSUSE on your VPS, no matter what's the current OS.](https://github.com/U2FsdGVkX1/vps2suse)
+
 
 ### 一键网络重装系统 - cxthhhhh 魔改版
 ```
