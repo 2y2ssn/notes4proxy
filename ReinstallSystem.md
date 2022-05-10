@@ -35,7 +35,7 @@ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://ww
 # 对于Linux，默认的用户名是：root，默认的密码是：cxthhhhh.com
 ```
 
-#### ylx2016/Linux-NetSpeed 优化
+### ylx2016/Linux-NetSpeed 优化
 ```
 wget -N --no-check-certificate "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 ```
@@ -44,6 +44,16 @@ wget -N --no-check-certificate "https://github.com/ylx2016/Linux-NetSpeed/raw/ma
 wget -N "https://github.000060000.xyz/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 # 卸载内核版本
 wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+
+### netboot.xyz
+```
+https://github.com/netbootxyz/netboot.xyz
+```
+
+### Install openSUSE on your VPS, no matter what's the current OS.
+```
+https://github.com/andre-romano/opensuse-auto
 ```
 
 #### Other
