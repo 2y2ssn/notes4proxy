@@ -5,6 +5,10 @@
 curl -Lso- bench.sh | bash
 ```
 ```
+https://raw.githubusercontent.com/teddysun/across/master/bench.sh
+```
+
+```
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
 chmod +x unixbench.sh
 ./unixbench.sh
