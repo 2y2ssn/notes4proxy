@@ -18,6 +18,16 @@ $ route -n   (查看网关地址)
 # 以 Debian10 为例
 $ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 10 -v 64 -a --ip-addr 194.87.xxx.xxx(改成ifconfig获取到的) --ip-gate 194.87.xxx.xxx(改成route获取到的) --ip-mask 255.255.xxx.xxx(改成你获取到的)
 # 默认密码是 MoeClub.org
+
+# 使用自定义镜像全自动安装
+$ bash InstallNET.sh -c 6.10 -v 64 -a --mirror 'http://mirror.centos.org/centos'
+# 以下示例中,将X.X.X.X替换为自己的网络参数.
+# --ip-addr :IP Address/IP地址
+# --ip-gate :Gateway   /网关
+# --ip-mask :Netmask   /子网掩码
+# 使用自定义镜像全自动安装
+$ bash InstallNET.sh -u 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
+
 ```
 
 ## ylx2016/Linux-NetSpeed 优化
