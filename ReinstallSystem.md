@@ -27,14 +27,13 @@ $ bash InstallNET.sh -c 6.10 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 # --ip-mask :Netmask   /子网掩码
 # 使用自定义镜像全自动安装
 $ bash InstallNET.sh -u 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
-
 ```
 
 ## ylx2016/Linux-NetSpeed 优化
 
 ```
 $ apt install ca-certificates wget -y && update-ca-certificates
-$ wget -N --no-check-certificate "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
+$ wget -N --no-check-certificate "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 ```
 ```
 # 不卸载内核版本
@@ -68,7 +67,7 @@ $ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://
 
 ### qiushui
 ```
-$ wget -qO DebianNET.sh qiu.sh/dd && bash DebianNET.sh -d 11 -v 64 -a -p password
+$ wget -qO DebianNET.sh https://raw.githubusercontent.com/teddysun/across/master/InstallNET.sh && bash DebianNET.sh -d 11 -v 64 -a -p password
 ```
 
 ## References
