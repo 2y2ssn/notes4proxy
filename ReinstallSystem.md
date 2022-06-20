@@ -59,6 +59,7 @@ $ sudo ./vps2suse #[OPTIONS]
 ## Other
 
 ### 一键网络重装系统 - cxthhhhh 魔改版
+
 ```
 $ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/CXT-Library/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh -UI_Options
 ```
@@ -66,15 +67,28 @@ $ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://
 **对于Linux，默认的用户名是：root，默认的密码是：cxthhhhh.com**
 
 ### qiushui
+
 ```
 $ wget -qO DebianNET.sh https://raw.githubusercontent.com/teddysun/across/master/InstallNET.sh && bash DebianNET.sh -d 11 -v 64 -a -p password
 ```
 
+### Debian Network Reinstall Script
+
+```
+# Downnload 
+$ curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chmod a+rx debi.sh
+# wget -O debi.sh https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh
+# Run
+$ sudo ./debi.sh
+```
+
 ## References
-1. [Linux常用的网络加速--ylx2016-Linux-NetSpeed](https://github.com/ylx2016/Linux-NetSpeed)
+
+1. [ylx2016-Linux-NetSpeed - Linux常用的网络加速](https://github.com/ylx2016/Linux-NetSpeed)
 2. [MoeClub/Note](https://github.com/MoeClub/Note)
 3. [Linux Auto Reinstall](https://github.com/hiCasper/Shell)
+4. [Teddysun-Across](https://github.com/teddysun/across)
 4. [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
-5. [Reinstall your VPS to minimal Debian](https://github.com/bohanyang/debi)
+5. [Debian Network Reinstall Script - Reinstall your VPS to minimal Debian](https://github.com/bohanyang/debi)
 6. [VPS2SUSE](https://github.com/U2FsdGVkX1/vps2suse)
 7. [netboot.xyz](https://github.com/netbootxyz/netboot.xyz)
