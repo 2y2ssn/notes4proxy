@@ -41,6 +41,14 @@ $ wget -N "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcpx.
 # 卸载内核版本
 $ wget -N "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 ```
+## [Linux reinstall Tools](https://github.com/leitbogioro/Tools)
+```
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
+```
+```
+$ bash InstallNET.sh -debian
+$ bash InstallNET.sh -rockylinux
+```
 
 ## netboot.xyz
 
@@ -66,7 +74,7 @@ $ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://
 **对于Microsoft Windows，默认的用户名是：Administrator，默认的密码是：cxthhhhh.com**
 **对于Linux，默认的用户名是：root，默认的密码是：cxthhhhh.com**
 
-### qiushui
+### TeddySun
 
 ```
 $ wget -qO DebianNET.sh https://raw.githubusercontent.com/teddysun/across/master/InstallNET.sh && bash DebianNET.sh -d 11 -v 64 -a -p password
@@ -92,3 +100,4 @@ $ sudo ./debi.sh
 5. [Debian Network Reinstall Script - Reinstall your VPS to minimal Debian](https://github.com/bohanyang/debi)
 6. [VPS2SUSE](https://github.com/U2FsdGVkX1/vps2suse)
 7. [netboot.xyz](https://github.com/netbootxyz/netboot.xyz)
+8. [leitbogioro/Tools](https://github.com/leitbogioro/Tools)
