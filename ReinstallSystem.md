@@ -8,6 +8,9 @@ $ wget --no-check-certificate -O AutoReinstall.sh https://raw.githubusercontent.
 ```
 $ bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 11 -v 64 -p "密码" -port "端口"
 ```
+```
+bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 11 -v 64 -a --mirror 'https://mirrors.huaweicloud.com/debian/' -p Password
+```
 
 **萌咖 DD Guide**
 
